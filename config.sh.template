@@ -1,0 +1,13 @@
+#!/bin/bash
+# Simulation-study configuration.
+# Copy to config.sh (git-ignored), edit the paths, then submit jobs from the
+# repository root, e.g.  qsub scripts/submit_array_light.sh
+
+export VIM_ROOT="/path/to/this/repository"
+# Directory holding one sub-directory per scenario: <scenario>/<scenario>.txt.<i>
+export VIM_INPUT_BASE="/path/to/simulated_data"
+# Per-dataset VIM results (vims_<id>.rds) are written to <VIM_OUTPUT_DIR>/<scenario>/
+export VIM_OUTPUT_DIR="${VIM_ROOT}/analysis_outputs_array"
+export VIM_SEED_FILE="${VIM_ROOT}/utils/random_seed"
+# Optional: colon-separated private R library path(s)
+export R_LIBS_USER="${VIM_ROOT}/R_libs"

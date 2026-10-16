@@ -1,0 +1,2 @@
+"Scenario","Mean_Bias_v1","Coverage_v1","Median_P_v1","Sig_P_v1","Mean_Bias_v100","Coverage_v100","Median_P_v100","Sig_P_v100","Mean_Bias_Int","Coverage_Int","Median_P_Int","Sig_P_Int"
+"strongint0305",0.00122713307165006,0.952,0.00696080249447548,0.798,0.00238110058737771,0.952,0.00420109620964256,0.79,-0.00105733663787147,0.946,6.644535559618e-10,1

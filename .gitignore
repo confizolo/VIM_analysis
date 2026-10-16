@@ -1,0 +1,38 @@
+# Local-only material (never shipped)
+archive/
+manuscript/
+R_libs*/
+
+# Site-specific configuration (copy the *.template files instead)
+config.sh
+config_true.sh
+config_real.sh
+
+# Large or binary outputs
+results/sim_outputs/
+results/figures/
+# Only the simulation summaries behind the paper's tables are released.
+results/tables/*
+!results/tables/null_tables.csv
+!results/tables/null_analysis_results.csv
+!results/tables/ha_analysis_results.csv
+!results/tables/bias_coverage/
+*.rds
+*.RData
+.Rhistory
+*.pdf
+*.png
+*.xlsx
+*.docx
+~$*
+*.log
+
+# Test outputs
+src/data/output/
+
+# System files
+.DS_Store
+__pycache__/
+
+# Release archives
+*.tar.gz
